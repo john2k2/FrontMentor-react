@@ -59,7 +59,7 @@ const Header = () => {
               alt=""
             />
           </div>
-          <div className="overflow-hidden absolute w-full  right-0 top-28 md:hidden">
+          <div className="overflow-hidden absolute w-full  right-0 top-[10%] md:hidden">
             <HiddenMenu menu={menu} setMenu={setMenu} />
           </div>
         </nav>
